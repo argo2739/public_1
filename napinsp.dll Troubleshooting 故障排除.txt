@@ -1,0 +1,13 @@
+#1
+downlaod napinsp.dll
+https://www.dll-files.com/napinsp.dll.html
+#2
+https://www.bleepingcomputer.com/forums/t/553147/pop-up-message-cwindowssystem32napinspdll-help/
+
+takeown /a /f  napinsp.dll
+
+cacls napinsp.dll /g everyone:f
+
+ren napinsp.dll napinsp.old
+
+copy d:\napinsp.dll to windows/system32
