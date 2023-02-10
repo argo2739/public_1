@@ -3,3 +3,4 @@
 
 解決jupyter notebook運算時出現napinsp.dll error的問題
 
+record AI-becnmark of my pc
